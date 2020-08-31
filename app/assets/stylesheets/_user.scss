@@ -1,7 +1,6 @@
-$lightgray: #f5f5f5;
 $white: #fff;
-$lightblue: #0099e8;
-$furima-color: #3ccace;
+
+$lightgray: #f5f5f5;
 
 @mixin hover-underline {
   opacity:0.6;
@@ -19,9 +18,10 @@ $furima-color: #3ccace;
 
 .AccountPage {
   min-height: 100vh;
-  background-color: $lightgray;
+  background-color:#f8f4e6;
   color: #333;
   font-size: 14px;
+  padding-top: 100px;
 }
 
 .AccountPageHeader {
@@ -53,7 +53,7 @@ $furima-color: #3ccace;
       line-height: 40px;
       margin-top: 8px;
       border-radius: 4px;
-      background-color: $lightblue;
+      background-color: #f7c200;
       color: $white;
       text-decoration: none;
     }
@@ -61,7 +61,7 @@ $furima-color: #3ccace;
 }
 
 .AccountPageSignUp {
-  width: 700px;
+  width: 600px;
   margin: 0 auto;
   background-color: $white;
   .Registration {
@@ -78,7 +78,7 @@ $furima-color: #3ccace;
   .ForgetPassword {
     display: block;
     margin-top: 40px;
-    color: $lightblue;
+    color:#b39500;
     text-decoration: none;
     &:hover {
       @include hover-underline
@@ -113,11 +113,11 @@ $furima-color: #3ccace;
     font-weight: 600;
   }
   .RequiredItem {
-    // @include caution-item;
-    background-color:#ea352d;
+
+    background-color:#f7ce00;
+    border-radius: 20% 20% 20% 20%;
   }
   .AnyItem {
-    // @include caution-item;
     background-color:#ccc;
   }
   &__InputBox {
@@ -159,7 +159,7 @@ $furima-color: #3ccace;
   margin-top: 25px;
   border-radius: 4px;
   border-style: none;
-  background-color: $furima-color;
+  background-color: #f7c200;
   color: $white;
   font-size: 14px;
   text-align: center;
